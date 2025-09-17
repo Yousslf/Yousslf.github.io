@@ -2,7 +2,7 @@ import React from "react";
 import coffeeScreen from "../assets/Screenshots/coffeScreen.png";
 import shoppingProduct from "../assets/Screenshots/shoppingProducts.png";
 import cart from "../assets/Screenshots/cart.png";
-import about from "../assets/Screenshots/about.png";
+import about from "../assets/Screenshots/About.png";
 import dashboard from "../assets/Screenshots/dashboard.png";
 
 const Projects = () => {
