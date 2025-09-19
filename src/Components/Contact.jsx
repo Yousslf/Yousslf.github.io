@@ -14,9 +14,19 @@ const Contact = () => {
         <div className="contact__actions">
           <a
             className="btn btn--primary"
-            href="mailto:Youssif.252008@gmail.com"
+            href="https://www.fiverr.com/s/GzqXlV3"
+            target="_blank"
+            rel="noreferrer"
           >
-            Email Me ✉️
+            <img
+              src="https://cdn.worldvectorlogo.com/logos/fiverr-1.svg"
+              alt="Fiverr"
+              width="20"
+              height="20"
+              className="btn__icon"
+              aria-hidden="true"
+            />
+            <span className="btn__label">Order on Fiverr</span>
           </a>
           <a
             className="btn btn--ghost"
@@ -24,7 +34,15 @@ const Contact = () => {
             target="_blank"
             rel="noreferrer"
           >
-            My GitHub
+            <img
+              src="https://cdn.worldvectorlogo.com/logos/github-icon-1.svg"
+              alt="GitHub"
+              width="20"
+              height="20"
+              className="btn__icon"
+              aria-hidden="true"
+            />
+            <span className="btn__label">My GitHub</span>
           </a>
         </div>
       </div>

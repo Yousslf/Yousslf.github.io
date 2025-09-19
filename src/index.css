@@ -270,6 +270,34 @@ html {
   background: rgba(255, 255, 255, 0.06);
 }
 
+.btn__icon {
+  display: block;
+  width: 24px;
+  height: 24px;
+  flex: 0 0 auto;
+  transition: transform 160ms ease, filter 160ms ease, opacity 160ms ease;
+}
+
+.btn:hover .btn__icon {
+  transform: translateY(-1px);
+}
+
+.btn__label {
+  display: inline-block;
+}
+
+.btn--primary .btn__icon {
+  filter: drop-shadow(0 6px 14px rgba(34, 211, 238, 0.35));
+}
+
+.btn--ghost .btn__icon {
+  filter: invert(1) grayscale(1) brightness(1.1);
+}
+
+.btn--ghost:hover .btn__icon {
+  opacity: 1;
+}
+
 .hero__skillsTitle {
   font-size: 0.95rem;
   color: var(--color-muted);
