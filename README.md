@@ -6,7 +6,7 @@ It showcases my projects, skills, and ways to contact me.
 ---
 
 ## 🔗 Live Demo
-👉 [View Portfolio](https://Yousslf.vercel.app)
+👉 [View Portfolio](https://yousslf-github-io.vercel.app)
 
 ---
 
