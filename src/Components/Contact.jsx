@@ -14,10 +14,10 @@ const Contact = () => {
         <div className="contact__actions">
           <a
             className="btn btn--primary"
-            href="mailto:youssifabdo.dev@gmail.com"
+            href="https://www.freelancer.com/u/yousslf"
             rel="noopener noreferrer"
           >
-            <span className="btn__label">Email Me</span>
+            <span className="btn__label">My Profile</span>
           </a>
           <a
             className="btn btn--ghost"
