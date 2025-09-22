@@ -14,19 +14,10 @@ const Contact = () => {
         <div className="contact__actions">
           <a
             className="btn btn--primary"
-            href="https://www.fiverr.com/s/GzqXlV3"
-            target="_blank"
-            rel="noreferrer"
+            href="mailto:youssifabdo.dev@gmail.com"
+            rel="noopener noreferrer"
           >
-            <img
-              src="https://cdn.worldvectorlogo.com/logos/fiverr-1.svg"
-              alt="Fiverr"
-              width="20"
-              height="20"
-              className="btn__icon"
-              aria-hidden="true"
-            />
-            <span className="btn__label">Order on Fiverr</span>
+            <span className="btn__label">Email Me</span>
           </a>
           <a
             className="btn btn--ghost"
